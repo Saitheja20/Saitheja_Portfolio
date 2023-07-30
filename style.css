@@ -1,0 +1,327 @@
+/* *{
+    background-color: rgb(75, 82, 79);
+} */
+.red{
+    color: red;
+    border-bottom: 5px double white;
+}
+
+  .rotate-image {
+   
+    transform: rotate(0deg);
+    transition: transform 0.7s ease-in-out;
+}
+  
+  .rotate-image:hover {
+   transform: rotate(360deg); 
+  }
+.menus{
+    text-align: center;
+    background-color: rgb(133, 139, 139);
+    color: white;
+    /* display: block; */
+}
+.menus:hover{
+    background: linear-gradient(to left, rgb(133,139,139) 50%, black 50%);
+        /* background-size: 200% 100%; */
+        background-position:left  bottom;
+        transition: all .5s ease-in-out;
+}
+
+section {
+   
+    position: relative; 
+    overflow: hidden; 
+  }
+  section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f0f000;
+    transform: skewY(-2deg);
+    z-index: -1; /
+  }
+  
+
+  
+.element{
+    color: red;
+    display: inline-flex;
+}
+/* .hidden{
+    display: block;
+} */
+/* #AboutMe{
+    padding: 0%;
+
+} */
+footer{
+    background-color: salmon;
+    text-align: center;
+}
+
+footer table tr td{
+    text-align: center;
+    margin-left: 20%;
+}
+ .btn{
+     margin-top: 30px;
+    display: inline-block;
+    /* background-color: black; */
+    color: black;  
+    text-align: center;
+}
+.contact-wrapper{
+
+    background-color: black;
+    color :white;
+    text-align: center;
+}
+/* .submit-btn{
+    /* background-color: rgb(228, 11, 11); 
+    color: rgb(131, 91, 91);
+} */
+.bottomborder{
+    display: block;
+border-bottom: 5px solid red;
+}
+.btn:hover{
+
+     background: linear-gradient(to left, rgb(36, 234, 227) 70%, rgb(13,110,253) 30%);
+        background-size: 200% 100%;
+        background-position: left bottom;
+        transition: all .7s ease-out;
+        border: 1px double green; 
+        background: linear-gradient(to right, rgb(36, 234, 227) 50%, rgb(13, 110, 253) 50%);
+background-size: 200% 100%;
+background-position: left bottom;
+transition: all .1s ease-out;
+border: 1px double green;
+       
+} 
+
+.cerimg{
+    display: block;
+    border: 5px dotted black;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+
+}
+.cerimg:hover{
+    display: inline-block;
+    opacity: 100%;
+    transform: scale(1.45);
+}
+ @keyframes leftToRight {
+    0% {
+      background-position: left bottom;
+    }
+    100% {
+      background-position: right bottom;
+    }
+  }
+  
+  /* Apply the animation to the element */
+  .button {
+    background: linear-gradient(to right, rgb(13, 110, 253) 50%, rgb(36, 234, 227) 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    animation: leftToRight 2s ease-out forwards; /* 2s duration with ease-out timing function */
+    border: 1px double green;
+
+    animation-name: leftToRightAnimation;
+    animation-duration: 2s; /* 2 seconds duration */
+    animation-timing-function: ease-out; /* Ease out the animation */
+    animation-delay: 1s; /* 1-second delay before the animation starts */
+    animation-fill-mode: forwards; /* Retain the final state of the animation */
+  
+  } 
+
+.center1{
+    text-align: center;
+    
+}
+.inline{
+    display: inline-block;
+    
+}
+/* .img{
+
+    width:200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+} */
+.navbar{
+    text-align: center;
+}
+.navbar-brand{
+    text-transform: uppercase;
+}
+
+/* carousel btn color */
+/* .carousel-control-prev-icon, .carousel-control-next-icon {
+    
+    /* outline: black; */
+    /* background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%; 
+    color: black;
+    border: 1px solid black;
+} */
+/* |||||||||||||||||||||||for mobile view|||||||||||||||||||||||| */
+@media(min-width: 380px) and (max-width:964px){
+    /* heading and photo content starts */
+    .responsive{
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+    #AboutMe{
+        padding: 5%;
+        margin:  0px 0px 0px 0px;
+        background-color: black;
+      
+        color: white;
+    }
+.center{
+    text-align: center;
+}
+    .navbar-brand:hover{
+        
+        /* color: rgb(0, 234, 255); */
+        /* transition: 0.95; */
+        /* background: linear-gradient(to left, rgb(235, 247, 10) 50%, rgb(13,110,253) 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition:  .8s ease-out; */
+        background: linear-gradient(to right, rgb(13,110,253) 50%, black 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        color: white;
+        transition: all .5s ease-out;
+
+    }
+    .navbar-nav{
+        text-align: center;
+        text-align-last: center;
+    }
+
+.nav-item:hover{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    background-color: rgb(83, 238, 243);
+    font-weight: bold;
+  text-decoration: dotted;
+}
+.collapse{
+    /* background-color: blue; */
+    color: brown;
+}
+    /* heading and photo content rnd */
+
+
+    .img{
+
+        width:200px;
+        height: 200px;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+    }
+}
+/*||||||||||||||||||| large desktops and laptops|||||||||||| */
+
+@media (min-width :965px) and (max-width:1800px) {
+    /* heading and photo content starts */
+    .navbar-brand{
+        margin-left: 50px;
+        /* background-color: black; */
+        /* color: white; */
+        color: rgb(0, 0, 0);
+        text-decoration: double;
+
+    }
+    .responsive{
+        width: 100%;
+        height: auto;
+        
+    }
+    p{
+        font-weight: 900;
+    }
+    .p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #AboutMe{
+        padding: 5%;
+        margin:  10px 0px 1px 0px;
+        background-color: black;
+        /* transform: skewY(-2deg); */
+        color: white;
+
+    }
+    /* .abt{
+        background-color: black;
+        transform: skewX(-20deg);
+    } */
+    .navbar-brand:hover{
+        
+        /* color: rgb(0, 234, 255); */
+        /* transition: 0.95; */
+        /* background: linear-gradient(to left, rgb(235, 247, 10) 50%, rgb(13,110,253) 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition:  .8s ease-out; */
+/* 
+        background: linear-gradient(to left, rgb(13,110,253) 50%, rgb(235, 247, 10) 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out; */
+        background: linear-gradient(to right, rgb(13,110,253) 50%, black 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        color: white;
+        transition: all .5s ease-out;
+    }
+    .navbar-nav{
+        text-align: right;
+        text-align-last: center;
+        padding-left: 200px;
+    
+    }
+    
+    .nav-item{
+        padding: 0 20px 0 20px;
+    }
+    .nav-item:hover{
+        text-transform: uppercase;
+        background-color: rgb(114, 233, 233);
+        text-decoration: none;
+    }
+    .navbarSupportedContent{
+        float: right;
+    }
+    /* heading and photo content ends */
+    .inline{
+        font-weight: bold;
+        text-transform: uppercase;
+    
+    }
+    .img{
+
+        width:300px;
+        height: 300px;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .navbar{
+        position: relative;
+    }
+}
